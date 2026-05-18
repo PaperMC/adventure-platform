@@ -72,7 +72,8 @@ final class CraftBukkitAccess {
   static final @Nullable Class<?> CLASS_RESOURCE_LOCATION = findClass(
     findNmsClassName("MinecraftKey"),
     findMcClassName("resources.MinecraftKey"),
-    findMcClassName("resources.ResourceLocation")
+    findMcClassName("resources.ResourceLocation"),
+    findMcClassName("resources.Identifier")
   );
   static final @Nullable Class<?> CLASS_NMS_ENTITY = findClass(
     findNmsClassName("Entity"),
